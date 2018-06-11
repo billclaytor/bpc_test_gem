@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'bpc_test_gem'
+
+message = BpcTestGem::Message.new
+message.test

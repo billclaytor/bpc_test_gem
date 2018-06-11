@@ -1,5 +1,9 @@
 require "bpc_test_gem/version"
 
 module BpcTestGem
-  # Your code goes here...
+  class Message
+    def test
+      puts 'Testing...'
+    end
+  end
 end
