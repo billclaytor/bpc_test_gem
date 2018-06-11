@@ -3,10 +3,10 @@ require File.expand_path('../lib/bpc_test_gem/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Bill Claytor"]
-  gem.email         = ["bill@testing.com"]
+  gem.email         = ["bill.claytor@puppet.com"]
   gem.description   = "Test gem"
   gem.summary       = "Testing..."
-  gem.homepage      = "https://github.com/billclaytor"
+  gem.homepage      = "https://github.com/billclaytor/bpc_test_gem"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = ["bpc_test_gem"]
